@@ -1,0 +1,186 @@
+-+- 0
+align: 4
+size: 52
+fldofs dwFileAttributes: 0
+fldsize dwFileAttributes: 4
+fldunsigned dwFileAttributes: 1
+fldofs ftCreationTime: 4
+fldsize ftCreationTime: 8
+fldofs ftLastAccessTime: 12
+fldsize ftLastAccessTime: 8
+fldofs ftLastWriteTime: 20
+fldsize ftLastWriteTime: 8
+fldofs dwVolumeSerialNumber: 28
+fldsize dwVolumeSerialNumber: 4
+fldunsigned dwVolumeSerialNumber: 1
+fldofs nFileSizeHigh: 32
+fldsize nFileSizeHigh: 4
+fldunsigned nFileSizeHigh: 1
+fldofs nFileSizeLow: 36
+fldsize nFileSizeLow: 4
+fldunsigned nFileSizeLow: 1
+fldofs nNumberOfLinks: 40
+fldsize nNumberOfLinks: 4
+fldunsigned nNumberOfLinks: 1
+fldofs nFileIndexHigh: 44
+fldsize nFileIndexHigh: 4
+fldunsigned nFileIndexHigh: 1
+fldofs nFileIndexLow: 48
+fldsize nFileIndexLow: 4
+fldunsigned nFileIndexLow: 1
+---
+-+- 1
+value: 5
+---
+-+- 2
+value: 1920
+---
+-+- 3
+value: 2
+---
+-+- 4
+value: 1
+---
+-+- 5
+value: 87
+---
+-+- 6
+value: 50
+---
+-+- 7
+value: 18
+---
+-+- 8
+value: 32
+---
+-+- 9
+value: 16
+---
+-+- 10
+value: 128
+---
+-+- 11
+value: 1
+---
+-+- 12
+value: 1024
+---
+-+- 13
+align: 4
+size: 8
+fldofs FileAttributes: 0
+fldsize FileAttributes: 4
+fldunsigned FileAttributes: 1
+fldofs ReparseTag: 4
+fldsize ReparseTag: 4
+fldunsigned ReparseTag: 1
+---
+-+- 14
+value: 33554432
+---
+-+- 15
+value: 2097152
+---
+-+- 16
+value: 128
+---
+-+- 17
+value: 1
+---
+-+- 18
+value: 2
+---
+-+- 19
+value: 2
+---
+-+- 20
+value: 1
+---
+-+- 21
+value: 3
+---
+-+- 22
+value: 0
+---
+-+- 23
+value: 256
+---
+-+- 24
+value: 9
+---
+-+- 25
+value: 2147483648
+---
+-+- 26
+value: 0
+---
+-+- 27
+value: 4294967295
+---
+-+- 28
+value: 1
+---
+-+- 29
+value: 3
+---
+-+- 30
+value: 0
+---
+-+- 31
+value: 2
+---
+-+- 32
+align: 4
+size: 36
+fldofs dwFileAttributes: 0
+fldsize dwFileAttributes: 4
+fldunsigned dwFileAttributes: 1
+fldofs nFileSizeHigh: 28
+fldsize nFileSizeHigh: 4
+fldunsigned nFileSizeHigh: 1
+fldofs nFileSizeLow: 32
+fldsize nFileSizeLow: 4
+fldunsigned nFileSizeLow: 1
+fldofs ftCreationTime: 4
+fldsize ftCreationTime: 8
+fldofs ftLastAccessTime: 12
+fldsize ftLastAccessTime: 8
+fldofs ftLastWriteTime: 20
+fldsize ftLastWriteTime: 8
+---
+-+- 33
+value: 8
+---
+-+- 34
+value: 32768
+---
+-+- 35
+value: 256
+---
+-+- 36
+value: 1024
+---
+-+- 37
+value: 0
+---
+-+- 38
+value: 2
+---
+-+- 39
+value: 512
+---
+-+- 40
+value: 1
+---
+-+- 41
+value: 8192
+---
+-+- 42
+value: 16384
+---
+-+- 43
+value: 4096
+---
+-+- 44
+value: 32768
+---

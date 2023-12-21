@@ -1,0 +1,253 @@
+-+- 0
+align: 1
+size: 4
+fldofs r: 0
+fldsize r: 1
+fldunsigned r: 1
+fldofs g: 1
+fldsize g: 1
+fldunsigned g: 1
+fldofs b: 2
+fldsize b: 1
+fldunsigned b: 1
+fldofs a: 3
+fldsize a: 1
+fldunsigned a: 1
+---
+-+- 1
+align: 8
+size: 24
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+fldofs timestamp: 4
+fldsize timestamp: 4
+fldunsigned timestamp: 1
+fldofs file: 8
+fldsize file: 8
+---
+-+- 2
+align: 8
+size: 56
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+---
+-+- 3
+align: 4
+size: 32
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+fldofs state: 12
+fldsize state: 1
+fldunsigned state: 1
+fldofs keysym: 16
+fldsize keysym: 16
+---
+-+- 4
+align: 4
+size: 16
+fldofs scancode: 0
+fldsize scancode: 4
+fldunsigned scancode: 0
+fldofs sym: 4
+fldsize sym: 4
+fldunsigned sym: 0
+fldofs mod: 8
+fldsize mod: 2
+fldunsigned mod: 1
+---
+-+- 5
+align: 4
+size: 28
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+fldofs button: 16
+fldsize button: 1
+fldunsigned button: 1
+fldofs state: 17
+fldsize state: 1
+fldunsigned state: 1
+fldofs x: 20
+fldsize x: 4
+fldunsigned x: 0
+fldofs y: 24
+fldsize y: 4
+fldunsigned y: 0
+---
+-+- 6
+align: 4
+size: 36
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+fldofs state: 16
+fldsize state: 4
+fldunsigned state: 1
+fldofs x: 20
+fldsize x: 4
+fldunsigned x: 0
+fldofs y: 24
+fldsize y: 4
+fldunsigned y: 0
+fldofs xrel: 28
+fldsize xrel: 4
+fldunsigned xrel: 0
+fldofs yrel: 32
+fldsize yrel: 4
+fldunsigned yrel: 0
+---
+-+- 7
+align: 4
+size: 28
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+fldofs timestamp: 4
+fldsize timestamp: 4
+fldunsigned timestamp: 1
+fldofs windowID: 8
+fldsize windowID: 4
+fldunsigned windowID: 1
+fldofs which: 12
+fldsize which: 4
+fldunsigned which: 1
+fldofs x: 16
+fldsize x: 4
+fldunsigned x: 0
+fldofs y: 20
+fldsize y: 4
+fldunsigned y: 0
+---
+-+- 8
+align: 8
+size: 24
+fldofs ncolors: 0
+fldsize ncolors: 4
+fldunsigned ncolors: 0
+fldofs colors: 8
+fldsize colors: 8
+---
+-+- 9
+align: 8
+size: 56
+fldofs format: 0
+fldsize format: 4
+fldunsigned format: 1
+fldofs palette: 8
+fldsize palette: 8
+fldofs BitsPerPixel: 16
+fldsize BitsPerPixel: 1
+fldunsigned BitsPerPixel: 1
+fldofs BytesPerPixel: 17
+fldsize BytesPerPixel: 1
+fldunsigned BytesPerPixel: 1
+fldofs Rmask: 20
+fldsize Rmask: 4
+fldunsigned Rmask: 1
+fldofs Gmask: 24
+fldsize Gmask: 4
+fldunsigned Gmask: 1
+fldofs Bmask: 28
+fldsize Bmask: 4
+fldunsigned Bmask: 1
+fldofs Amask: 32
+fldsize Amask: 4
+fldunsigned Amask: 1
+---
+-+- 10
+align: 4
+size: 8
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+---
+-+- 11
+align: 8
+size: 88
+---
+-+- 12
+align: 4
+size: 16
+fldofs x: 0
+fldsize x: 4
+fldunsigned x: 0
+fldofs y: 4
+fldsize y: 4
+fldunsigned y: 0
+fldofs w: 8
+fldsize w: 4
+fldunsigned w: 0
+fldofs h: 12
+fldsize h: 4
+fldunsigned h: 0
+---
+-+- 13
+size: 2
+unsigned: 0
+---
+-+- 14
+align: 8
+size: 96
+fldofs w: 16
+fldsize w: 4
+fldunsigned w: 0
+fldofs h: 20
+fldsize h: 4
+fldunsigned h: 0
+fldofs format: 8
+fldsize format: 8
+fldofs pitch: 24
+fldsize pitch: 4
+fldunsigned pitch: 0
+fldofs pixels: 32
+fldsize pixels: 8
+---
+-+- 15
+align: 4
+size: 44
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+fldofs timestamp: 4
+fldsize timestamp: 4
+fldunsigned timestamp: 1
+fldofs windowID: 8
+fldsize windowID: 4
+fldunsigned windowID: 1
+fldofs text: 12
+fldsize text: 32
+---
+-+- 16
+size: 2
+unsigned: 1
+---
+-+- 17
+size: 4
+unsigned: 1
+---
+-+- 18
+size: 1
+unsigned: 1
+---
+-+- 19
+align: 4
+size: 24
+fldofs type: 0
+fldsize type: 4
+fldunsigned type: 1
+fldofs windowID: 8
+fldsize windowID: 4
+fldunsigned windowID: 1
+fldofs event: 12
+fldsize event: 1
+fldunsigned event: 1
+fldofs data1: 16
+fldsize data1: 4
+fldunsigned data1: 0
+fldofs data2: 20
+fldsize data2: 4
+fldunsigned data2: 0
+---

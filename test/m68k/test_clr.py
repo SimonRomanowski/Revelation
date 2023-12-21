@@ -1,0 +1,137 @@
+# -*- coding: utf-8 -*-
+"""
+Test the CLR instruction of the 68k CPU.
+
+Created on Sun Sep 24 15:05:07 2023
+
+@author: Simon Romanowski
+"""
+
+import unittest
+
+from test.m68k import test_cpu
+import m68k.instructions as ins
+
+
+class TestClr(unittest.TestCase):
+
+    def test_clr_000(self):
+        test_cpu.test_instruction(
+            # Setup
+            init_d=[0xFFFF1234, None, None, None,
+                    None, None, None, None],
+            init_a=[None, None, None, None,
+                    None, None, None, None],
+            init_pc=0,
+            init_x=None, init_n=None, init_z=None, init_v=None, init_c=None,
+            init_t1=None, init_s=None, init_i=None,
+            init_usp=None,
+            init_ssp=None,
+            init_mem=(),
+
+            # Expected state
+            d=[0xFFFF0000, None, None, None,
+               None, None, None, None],
+            a=[None, None, None, None,
+               None, None, None, None],
+            pc=None,
+            x=None, n=None, z=None, v=None, c=None,
+            t1=None, s=None, i=None,
+            usp=None,
+            ssp=None,
+            memory_values=(),
+
+            # Instruction
+            cpu_method=ins.clr,
+            program=test_cpu.int_list_to_str(
+                [0b01000010, 0b01000000]),  # CLR D0
+            method_args=(
+                1,  # op_size
+                0,  # ea_mode
+                0,  # ea_register
+            ),
+            method_kwargs={},
+            method_load_program=True,
+            cycle=4)
+
+    def test_clr_001(self):
+        test_cpu.test_instruction(
+            # Setup
+            init_d=[0xFFFF1234, None, None, None,
+                    None, None, None, None],
+            init_a=[None, None, None, None,
+                    None, None, None, None],
+            init_pc=0,
+            init_x=None, init_n=None, init_z=None, init_v=None, init_c=None,
+            init_t1=None, init_s=None, init_i=None,
+            init_usp=None,
+            init_ssp=None,
+            init_mem=(),
+
+            # Expected state
+            d=[0xFFFF1200, None, None, None,
+               None, None, None, None],
+            a=[None, None, None, None,
+               None, None, None, None],
+            pc=None,
+            x=None, n=None, z=None, v=None, c=None,
+            t1=None, s=None, i=None,
+            usp=None,
+            ssp=None,
+            memory_values=(),
+
+            # Instruction
+            cpu_method=ins.clr,
+            program=test_cpu.int_list_to_str(
+                [0b01000010, 0b00000000]),  # CLR.B D0
+            method_args=(
+                0,  # op_size
+                0,  # ea_mode
+                0,  # ea_register
+            ),
+            method_kwargs={},
+            method_load_program=True,
+            cycle=4)
+
+    def test_clr_002(self):
+        test_cpu.test_instruction(
+            # Setup
+            init_d=[0xFFFF1234, None, None, None,
+                    None, None, None, None],
+            init_a=[None, None, None, None,
+                    None, None, None, None],
+            init_pc=0,
+            init_x=None, init_n=None, init_z=None, init_v=None, init_c=None,
+            init_t1=None, init_s=None, init_i=None,
+            init_usp=None,
+            init_ssp=None,
+            init_mem=(),
+
+            # Expected state
+            d=[0, None, None, None,
+               None, None, None, None],
+            a=[None, None, None, None,
+               None, None, None, None],
+            pc=None,
+            x=None, n=None, z=None, v=None, c=None,
+            t1=None, s=None, i=None,
+            usp=None,
+            ssp=None,
+            memory_values=(),
+
+            # Instruction
+            cpu_method=ins.clr,
+            program=test_cpu.int_list_to_str(
+                [0b01000010, 0b10000000]),  # CLR D0
+            method_args=(
+                2,  # op_size
+                0,  # ea_mode
+                0,  # ea_register
+            ),
+            method_kwargs={},
+            method_load_program=True,
+            cycle=6)
+
+
+if __name__ == "__main__":
+    unittest.main()

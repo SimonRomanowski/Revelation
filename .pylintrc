@@ -1,0 +1,19 @@
+[MESSAGES CONTROL]
+
+disable=
+    superfluous-parens,
+    too-many-arguments,
+    too-many-branches,
+    super-init-not-called,
+    too-many-locals,
+    too-many-lines
+
+[BASIC]
+
+; Allow 2 character long names
+argument-rgx=(([a-z_][a-z0-9_]+)|(_[a-z0-9_]*)|(__[a-z][a-z0-9_]+__))$
+variable-rgx=(([a-z_][a-z0-9_]+)|(_[a-z0-9_]*)|(__[a-z][a-z0-9_]+__))$
+
+[REPORTS]
+
+output-format=colorized

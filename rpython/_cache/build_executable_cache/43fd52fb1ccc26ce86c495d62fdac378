@@ -1,0 +1,27 @@
+-+- 0
+align: 4
+size: 320
+fldofs dwFileAttributes: 0
+fldsize dwFileAttributes: 4
+fldunsigned dwFileAttributes: 1
+fldofs ftCreationTime: 4
+fldsize ftCreationTime: 8
+fldofs ftLastAccessTime: 12
+fldsize ftLastAccessTime: 8
+fldofs ftLastWriteTime: 20
+fldsize ftLastWriteTime: 8
+fldofs nFileSizeHigh: 28
+fldsize nFileSizeHigh: 4
+fldunsigned nFileSizeHigh: 1
+fldofs nFileSizeLow: 32
+fldsize nFileSizeLow: 4
+fldunsigned nFileSizeLow: 1
+fldofs dwReserved0: 36
+fldsize dwReserved0: 4
+fldunsigned dwReserved0: 1
+fldofs dwReserved1: 40
+fldsize dwReserved1: 4
+fldunsigned dwReserved1: 1
+fldofs cFileName: 44
+fldsize cFileName: 260
+---

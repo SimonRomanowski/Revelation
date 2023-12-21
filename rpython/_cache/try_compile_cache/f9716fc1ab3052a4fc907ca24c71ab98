@@ -1,0 +1,4 @@
+platcheck_56.c
+c:\users\lasag\appdata\local\temp\usession-unknown-158\platcheck_56.c(115): error C2065: 'accept4': undeclared identifier
+platcheck_56.c
+c:\users\lasag\appdata\local\temp\usession-unknown-158\platcheck_56.c(115): error C2065: 'accept4': undeclared identifier
